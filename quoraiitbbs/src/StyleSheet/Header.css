@@ -1,0 +1,76 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: whitesmoke;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  width: 300px;
+}
+.left__one {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+  color: #b92b27;
+
+  border-bottom: 2px solid #b92b27;
+}
+
+.left__two {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+}
+.left__three {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+}
+.left__avtar {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+}
+.left__circle {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+}
+.left__settings {
+  box-sizing: border-box;
+  position: relative;
+  height: 49px;
+  min-width: 60px;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 24px !important;
+  background-color: #cd9042;
+}
